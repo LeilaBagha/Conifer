@@ -2,7 +2,7 @@
 
 ## How to install  
 
-## Input files 
+## Input and Output 
 single-cell matrix, which is ternary matrix D of dimension nxm, where n denotes number of mutations and m denotes number of single cells obtained in sequencing experiment
 Single cell matrix contains 0,1 and 3, which shows absence, presence or missing value for mutation calls, respectively. 
 Bulk sequencing derived matrix containing VAFs for each of n mutations in different bulk samples.
