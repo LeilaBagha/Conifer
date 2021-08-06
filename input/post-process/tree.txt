@@ -1,0 +1,6 @@
+node parentNode	mutations
+0 -1 mut0,mut1,mut2,mut3,mut4,mut5,mut6,mut7,mut8
+1 -1 mut9,mut10,mut11,mut0
+2 -1 mut12,mut13,mut14,mut15,mut16,mut17,mut18,mut19
+3 0 mut20,mut21,mut22,mut23,mut24
+4 2 mut25,mut26,mut27,mut28,mut29,mut30
