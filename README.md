@@ -8,6 +8,20 @@ Single cell matrix contains 0,1 and 3, which shows absence, presence or missing 
 Bulk sequencing derived matrix containing VAFs for each of n mutations in different bulk samples.
 Folder input contains an example input of bulk file (bulk.csv) and single-cell matrix (singlecell.csv).
 ## Parameters
+input parameter:
+```
+mcmc_passes: 
+stats_interval:  
+thinning: 
+burnIn:
+mu:  
+kappa:
+nu: 
+sigma:
+ddcrp_alpha:
+
+```
+
 
 ## How to run 
 Simple Python script main.py for running Conifer is provided . Description of the parameters is also provided inside this file. In order to run Conifer it suffices to adjust related parameters in main.py and run command "python main.py". Please note that the values of number of iterations and repetitions provided in main.py are set to very small value in order to facilitate verifying the correctness of installation, variable assignments etc. For the real application, these numbers should be significantly higher (we recommend at least 3 repretitions and at least several hundred-thousands of iterations).
