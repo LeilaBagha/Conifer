@@ -16,15 +16,13 @@ Folder input contains an example input of bulk file (bulk.csv) and single-cell m
 ## Parameters
 input parameter:
 ```
-mcmc_passes: 
-stats_interval:  
-thinning: 
-burnIn:
-mu:  
-kappa:
-nu: 
-sigma:
-ddcrp_alpha:
+mcmc_passes: number of MCMC passes to apply to data
+burnIn: number of iteration for throwing away
+mu: prior mean of first moment
+kappa: prior variance of first moment
+nu: prior mean of second moment
+sigma: prior variance of second moment
+ddcrp_alpha: concentration parameter of ddcrp prior
 
 ```
 
